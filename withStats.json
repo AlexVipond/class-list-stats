@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Stripe docs",
+    "primaryClassType": "semantic",
+    "category": "docs",
+    "url": "https://stripe.com/docs/invoicing/prices-guide",
+    "stats": {
+      "totalLength": 5405,
+      "totalCharacters": 87089,
+      "maxLength": 17,
+      "maxCharacters": 449,
+      "averageLength": 3.36,
+      "averageCharacters": 54.13
+    }
+  },
+  {
+    "name": "Github landing page",
+    "primaryClassType": "utility",
+    "category": "marketing",
+    "url": "https://github.com/",
+    "stats": {
+      "totalLength": 4103,
+      "totalCharacters": 49352,
+      "maxLength": 14,
+      "maxCharacters": 187,
+      "averageLength": 2.87,
+      "averageCharacters": 34.54
+    }
+  },
+  {
+    "name": "Algolia docs",
+    "primaryClassType": "utility",
+    "category": "docs",
+    "url": "https://www.algolia.com/doc/",
+    "stats": {
+      "totalLength": 10180,
+      "totalCharacters": 110870,
+      "maxLength": 19,
+      "maxCharacters": 227,
+      "averageLength": 3.1,
+      "averageCharacters": 33.72
+    }
+  },
+  {
+    "name": "Tailwind docs article",
+    "primaryClassType": "utility",
+    "category": "docs",
+    "url": "https://tailwindcss.com/docs/width",
+    "stats": {
+      "totalLength": 5554,
+      "totalCharacters": 54917,
+      "maxLength": 17,
+      "maxCharacters": 159,
+      "averageLength": 3.03,
+      "averageCharacters": 29.93
+    }
+  },
+  {
+    "name": "Tailwind landing page",
+    "primaryClassType": "utility",
+    "category": "marketing",
+    "url": "https://tailwindcss.com/",
+    "stats": {
+      "totalLength": 13719,
+      "totalCharacters": 125436,
+      "maxLength": 26,
+      "maxCharacters": 321,
+      "averageLength": 2.07,
+      "averageCharacters": 18.91
+    }
+  },
+  {
+    "name": "Headless UI docs article",
+    "primaryClassType": "utility",
+    "category": "docs",
+    "url": "https://headlessui.dev/vue/listbox",
+    "stats": {
+      "totalLength": 5729,
+      "totalCharacters": 49832,
+      "maxLength": 22,
+      "maxCharacters": 244,
+      "averageLength": 2.09,
+      "averageCharacters": 18.19
+    }
+  },
+  {
+    "name": "Stripe landing page",
+    "primaryClassType": "semantic",
+    "category": "marketing",
+    "url": "https://stripe.com",
+    "stats": {
+      "totalLength": 3048,
+      "totalCharacters": 58515,
+      "maxLength": 9,
+      "maxCharacters": 149,
+      "averageLength": 0.78,
+      "averageCharacters": 15
+    }
+  },
+  {
+    "name": "Tailwind blog article",
+    "primaryClassType": "utility",
+    "category": "blog",
+    "url": "https://blog.tailwindcss.com/tailwindcss-2-2",
+    "stats": {
+      "totalLength": 1639,
+      "totalCharacters": 13144,
+      "maxLength": 8,
+      "maxCharacters": 96,
+      "averageLength": 1.43,
+      "averageCharacters": 11.5
+    }
+  },
+  {
+    "name": "Headless UI landing page",
+    "primaryClassType": "utility",
+    "category": "marketing",
+    "url": "https://headlessui.dev/",
+    "stats": {
+      "totalLength": 472,
+      "totalCharacters": 5218,
+      "maxLength": 12,
+      "maxCharacters": 273,
+      "averageLength": 0.96,
+      "averageCharacters": 10.63
+    }
+  },
+  {
+    "name": "MDN docs article",
+    "primaryClassType": "semantic",
+    "category": "docs",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/classList",
+    "stats": {
+      "totalLength": 3576,
+      "totalCharacters": 28332,
+      "maxLength": 3,
+      "maxCharacters": 33,
+      "averageLength": 1.24,
+      "averageCharacters": 9.81
+    }
+  },
+  {
+    "name": "CSS Tricks article",
+    "primaryClassType": "semantic",
+    "category": "blog",
+    "url": "https://css-tricks.com/if-were-gonna-criticize-utility-class-frameworks-lets-be-fair-about-it/",
+    "stats": {
+      "totalLength": 553,
+      "totalCharacters": 8015,
+      "maxLength": 9,
+      "maxCharacters": 153,
+      "averageLength": 0.64,
+      "averageCharacters": 9.33
+    }
+  },
+  {
+    "name": "CSS Tricks landing page",
+    "primaryClassType": "semantic",
+    "category": "marketing",
+    "url": "https://css-tricks.com/",
+    "stats": {
+      "totalLength": 657,
+      "totalCharacters": 8641,
+      "maxLength": 6,
+      "maxCharacters": 102,
+      "averageLength": 0.71,
+      "averageCharacters": 9.28
+    }
+  }
+]
