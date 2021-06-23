@@ -8,9 +8,47 @@ const browser = await puppeteer.launch({
         executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
         headless: true,
       }),
-      page = (await browser.pages())[0]
+      page = (await browser.pages())[0],
+      withStats = [
+        // I collected stats manually from a few authenticated pages
+        {
+          name: 'Netlify site settings page',
+          primaryClassType: 'utility',
+          category: 'application',
+          url: 'https://app.netlify.com/sites/css-selector-builder/settings/general',
+          stats: {
+            "maxLength": 32,
+            "maxCharacters": 553,
+            "averageLength": 2.35,
+            "averageCharacters": 35.4
+          }
+        },
+        {
+          name: 'GitHub account settings page',
+          primaryClassType: 'semantic',
+          category: 'application',
+          url: 'https://github.com/settings/profile',
+          stats: {
+            "maxLength": 15,
+            "maxCharacters": 195,
+            "averageLength": 1.4,
+            "averageCharacters": 17.87
+          }
+        },
+        {
+          name: 'Stripe dashboard',
+          primaryClassType: 'utility',
+          category: 'application',
+          url: 'https://dashboard.stripe.com/dashboard',
+          stats: {
+            "maxLength": 15,
+            "maxCharacters": 407,
+            "averageLength": 2.87,
+            "averageCharacters": 51.02
+          }
+        },
+      ]
 
-const withStats = []
 for (const website of websites) {
   await page.goto(website.url)
 
@@ -31,9 +69,6 @@ for (const website of websites) {
       
       // Stats 🔥🔥🔥
       return {
-        totalLength: total.length,
-        totalCharacters: total.characters,
-    
         maxLength: Math.max(...classListLengths.map(({ length }) => length)),
         maxCharacters: Math.max(...classListLengths.map(({ characters }) => characters)),
         
@@ -61,5 +96,3 @@ const markdownTable = withStats.reduce(
 
 writeFileSync('./withStats.json', JSON.stringify(withStats, null, 2), 'utf8')
 writeFileSync('./withStats.md', markdownTable, 'utf8')
-
-

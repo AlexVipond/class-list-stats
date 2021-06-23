@@ -49,7 +49,7 @@ export const websites = [
   },
   {
     name: 'Stripe docs',
-    primaryClassType: 'semantic',
+    primaryClassType: 'utility',
     category: 'docs',
     url: 'https://stripe.com/docs/invoicing/prices-guide',
   },
@@ -70,5 +70,35 @@ export const websites = [
     primaryClassType: 'semantic',
     category: 'marketing',
     url: 'https://css-tricks.com/',
+  },
+  {
+    name: 'Algolia landing page',
+    primaryClassType: 'utility',
+    category: 'marketing',
+    url: 'https://www.algolia.com/',
+  },
+  {
+    name: 'Netlify landing page',
+    primaryClassType: 'semantic',
+    category: 'marketing',
+    url: 'https://www.netlify.com/',
+  },
+  {
+    name: 'Netlify blog post',
+    primaryClassType: 'semantic',
+    category: 'blog',
+    url: 'https://www.netlify.com/blog/2021/03/23/from-semantic-css-to-tailwind-refactoring-the-netlify-ui-codebase/',
+  },
+  {
+    name: 'GitHub repo with README',
+    primaryClassType: 'utility',
+    category: 'application',
+    url: 'https://github.com/AlexVipond/css-selector-builder',
+  },
+  {
+    name: 'GitHub profile',
+    primaryClassType: 'utility',
+    category: 'application',
+    url: 'https://github.com/AlexVipond',
   },
 ]
